@@ -167,9 +167,9 @@ export const KEYBOARD_KEYS_108: KeySpec[] = [
   { id: 'del', label: 'Del', bubble: 'Del', row: 2, rowY: 2.25, uStart: NAV_X, uWidth: 1, accent: 'mod', vkCodes: [0x2e] },
   { id: 'end', label: 'End', bubble: 'End', row: 2, rowY: 2.25, uStart: NAV_X + 1, uWidth: 1, accent: 'mod', vkCodes: [0x23] },
   { id: 'pgdn', label: 'PD', bubble: 'PgDn', row: 2, rowY: 2.25, uStart: NAV_X + 2, uWidth: 1, accent: 'mod', vkCodes: [0x22] },
-  { id: 'np_7', label: '7', bubble: '7↖', row: 2, rowY: 2.25, uStart: NUM_X, uWidth: 1, vkCodes: [0x67] },
-  { id: 'np_8', label: '8', bubble: '8↑', row: 2, rowY: 2.25, uStart: NUM_X + 1, uWidth: 1, vkCodes: [0x68] },
-  { id: 'np_9', label: '9', bubble: '9↗', row: 2, rowY: 2.25, uStart: NUM_X + 2, uWidth: 1, vkCodes: [0x69] },
+  { id: 'np_7', label: '7', bubble: '7↖', row: 2, rowY: 2.25, uStart: NUM_X, uWidth: 1, vkCodes: [0x24] },
+  { id: 'np_8', label: '8', bubble: '8↑', row: 2, rowY: 2.25, uStart: NUM_X + 1, uWidth: 1, vkCodes: [0x26] },
+  { id: 'np_9', label: '9', bubble: '9↗', row: 2, rowY: 2.25, uStart: NUM_X + 2, uWidth: 1, vkCodes: [0x21] },
   { id: 'np_add', label: '+', bubble: 'Num+', row: 2, rowY: 2.25, rowSpan: 2, uStart: NUM_X + 3, uWidth: 1, accent: 'mod', vkCodes: [0x6b] },
 
   // Row 3 (rowY=3.25): Caps A..L ; ' Enter | (nav gap) | 4 5 6 (16 keys)
@@ -186,9 +186,9 @@ export const KEYBOARD_KEYS_108: KeySpec[] = [
   { id: 'semi', label: ';', bubble: ';', row: 3, rowY: 3.25, uStart: 10.75, uWidth: 1, vkCodes: [0xba] },
   { id: 'quote', label: "'", bubble: "'", row: 3, rowY: 3.25, uStart: 11.75, uWidth: 1, vkCodes: [0xde] },
   { id: 'enter', label: '↵', bubble: '↵', row: 3, rowY: 3.25, uStart: 12.75, uWidth: 2.25, accent: 'mod', vkCodes: [0x0d] },
-  { id: 'np_4', label: '4', bubble: '4←', row: 3, rowY: 3.25, uStart: NUM_X, uWidth: 1, vkCodes: [0x64] },
-  { id: 'np_5', label: '5', bubble: '5␣', row: 3, rowY: 3.25, uStart: NUM_X + 1, uWidth: 1, vkCodes: [0x65] },
-  { id: 'np_6', label: '6', bubble: '6→', row: 3, rowY: 3.25, uStart: NUM_X + 2, uWidth: 1, vkCodes: [0x66] },
+  { id: 'np_4', label: '4', bubble: '4←', row: 3, rowY: 3.25, uStart: NUM_X, uWidth: 1, vkCodes: [0x25] },
+  { id: 'np_5', label: '5', bubble: '5␣', row: 3, rowY: 3.25, uStart: NUM_X + 1, uWidth: 1, vkCodes: [0x0c] },
+  { id: 'np_6', label: '6', bubble: '6→', row: 3, rowY: 3.25, uStart: NUM_X + 2, uWidth: 1, vkCodes: [0x27] },
 
   // Row 4 (rowY=4.25): LShift Z..M , . / RShift(orange) | Up | 1 2 3 NumEnter(2U tall, orange!) (17 keys)
   { id: 'lshift', label: '⇧', bubble: '⇧', row: 4, rowY: 4.25, uStart: 0, uWidth: 2.25, accent: 'mod', vkCodes: [0xa0, 0x10] },
@@ -204,9 +204,9 @@ export const KEYBOARD_KEYS_108: KeySpec[] = [
   { id: 'slash', label: '/', bubble: '/', row: 4, rowY: 4.25, uStart: 11.25, uWidth: 1, vkCodes: [0xbf] },
   { id: 'rshift', label: '⇧', bubble: '⇧', row: 4, rowY: 4.25, uStart: 12.25, uWidth: 2.75, accent: 'orange', vkCodes: [0xa1] },
   { id: 'up', label: '↑', bubble: '↑', row: 4, rowY: 4.25, uStart: NAV_X + 1, uWidth: 1, accent: 'mod', vkCodes: [0x26] },
-  { id: 'np_1', label: '1', bubble: '1↘', row: 4, rowY: 4.25, uStart: NUM_X, uWidth: 1, vkCodes: [0x61] },
-  { id: 'np_2', label: '2', bubble: '2↓', row: 4, rowY: 4.25, uStart: NUM_X + 1, uWidth: 1, vkCodes: [0x62] },
-  { id: 'np_3', label: '3', bubble: '3↙', row: 4, rowY: 4.25, uStart: NUM_X + 2, uWidth: 1, vkCodes: [0x63] },
+  { id: 'np_1', label: '1', bubble: '1↙', row: 4, rowY: 4.25, uStart: NUM_X, uWidth: 1, vkCodes: [0x23] },
+  { id: 'np_2', label: '2', bubble: '2↓', row: 4, rowY: 4.25, uStart: NUM_X + 1, uWidth: 1, vkCodes: [0x28] },
+  { id: 'np_3', label: '3', bubble: '3↘', row: 4, rowY: 4.25, uStart: NUM_X + 2, uWidth: 1, vkCodes: [0x22] },
   { id: 'np_ent', label: '↵', bubble: 'Num↵', row: 4, rowY: 4.25, rowSpan: 2, uStart: NUM_X + 3, uWidth: 1, accent: 'orange', vkCodes: [VK_NUMPAD_ENTER] },
 
   // Row 5 (rowY=5.25): Ctrl Win Alt Space Alt Win Menu Ctrl | Left Down Right | 0(2U) . (13 keys)
@@ -221,8 +221,8 @@ export const KEYBOARD_KEYS_108: KeySpec[] = [
   { id: 'left', label: '←', bubble: '←', row: 5, rowY: 5.25, uStart: NAV_X, uWidth: 1, accent: 'mod', vkCodes: [0x25] },
   { id: 'down', label: '↓', bubble: '↓', row: 5, rowY: 5.25, uStart: NAV_X + 1, uWidth: 1, accent: 'mod', vkCodes: [0x28] },
   { id: 'right', label: '→', bubble: '→', row: 5, rowY: 5.25, uStart: NAV_X + 2, uWidth: 1, accent: 'mod', vkCodes: [0x27] },
-  { id: 'np_0', label: '0', bubble: 'Num0', row: 5, rowY: 5.25, uStart: NUM_X, uWidth: 2, vkCodes: [0x60] },
-  { id: 'np_dot', label: '.', bubble: 'Num.', row: 5, rowY: 5.25, uStart: NUM_X + 2, uWidth: 1, vkCodes: [0x6e] },
+  { id: 'np_0', label: '0', bubble: 'Num0', row: 5, rowY: 5.25, uStart: NUM_X, uWidth: 2, vkCodes: [0x2d] },
+  { id: 'np_dot', label: '.', bubble: 'Num.', row: 5, rowY: 5.25, uStart: NUM_X + 2, uWidth: 1, vkCodes: [0x2e] },
 ];
 
 export const KEYBOARD_KEYS = KEYBOARD_KEYS_65;
@@ -248,9 +248,32 @@ const vkLookups: Record<KeyboardLayoutId, Map<number, KeySpec>> = {
 };
 
 for (const layoutId of ['65', '108'] as const) {
-  for (const key of KEYBOARD_LAYOUTS[layoutId].keys) {
-    for (const vk of key.vkCodes) {
-      vkLookups[layoutId].set(vk, key);
+  const keys = KEYBOARD_LAYOUTS[layoutId].keys;
+
+  if (layoutId === '108') {
+    // Register ordinary/navigation keys first.
+    for (const key of keys) {
+      if (!key.id.startsWith('np_')) {
+        for (const vk of key.vkCodes) {
+          vkLookups[layoutId].set(vk, key);
+        }
+      }
+    }
+
+    // NumLock off: the numeric keypad keys reuse navigation VK codes.
+    // Register these keys last so they have priority over the navigation keys.
+    for (const key of keys) {
+      if (key.id.startsWith('np_')) {
+        for (const vk of key.vkCodes) {
+          vkLookups[layoutId].set(vk, key);
+        }
+      }
+    }
+  } else {
+    for (const key of keys) {
+      for (const vk of key.vkCodes) {
+        vkLookups[layoutId].set(vk, key);
+      }
     }
   }
 }
